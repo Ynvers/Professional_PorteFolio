@@ -12,103 +12,46 @@
     <meta name="apple-mobile-web-app-title" content="MyWebSite" />
     <link rel="manifest" href="media/favicon_io/site.webmanifest" />
 </head>
+
 <body>
     <header>
-        <h1>Nathan ADOHO</h1>
-        <img src="images/icon.png" alt="Image de Nathan ADOHO" id="profile-pic">
-        <h2 id="subtitle">Junior AI Engineer</h2>
-
-        <nav>
-            <a href="#hero">Home</a>
-            <a href="#about">About</a>
-            <a href="#vision">Vision</a>
-            <a href="#objectives">Objectives</a>
-            <a href="#acomplishments">Accomplishments</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#blog">Blog</a>
-            <a href="#lab">Workshop</a>
-            <a href="#contact">Contact</a>
-            <!-- <a href="#manifesto">Manifesto</a> -->
-        </nav>
-
-        <button id="lang-btn">En</button>
+        <div class="header-container">
+            <div class="identity">
+                <h1>Nathan ADOHO</h1>
+                <h2 id="subtitle">Junior AI Engineer</h2>
+            </div>
+            <nav class="main-nav">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>                
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" aria-label="theme-toggle">
+                    <img src="media/icons/sun.png" alt="Light Mode" class="light-theme-toggle-icon">
+                    <img src="media/icons/moon.png" alt="Dark Mode" class="dark-theme-toggle-icon">
+                </button>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section id="hero">
-            <img src="images/icon.png" alt="PProfessional photo" id="profile-pic">
-            <h1>Nathan ADOHO</h1>
-            <h2>Étudiant en Intelligence Artificielle</h2>
-            <p>Slogan ou phrase d’accroche ici</p>
-            <div>
-                <a href="docs/CV_Nathan_ADOHO.pdf" target="_blank">CV</a>
-                <a href="https://github.com/ton-github" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/votreprofil" target="_blank">LinkedIn</a>
-                <a href="mailto:luzolo.adoho@gmail.com">Email</a>
+        <section id="hero", class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Hi, I'm Nathan 👋</h1>
+                    <p>
+                        I’m an AI student passionate about Reinforcement Learning, algorithm optimization, and ethical applications of machine learning. I build intelligent systems that learn from data and solve real-world challenges.
+                    </p>
+                    <a href="#contact" class="hero-btn">Let's Connect</a>
+                </div>
+                <div class="hero-image">
+                    <img src="media/icons/icon.png" alt="Portrait de Nathan ADOHO" />
+                </div>
             </div>
         </section>
-        <section id="about">
-            <h3>À propos</h3>
-            <p>Parcours académique, centres d’intérêt, valeurs, pourquoi l’IA, anecdote…</p>
-        </section>
-        <section id="vision">
-            <h3>Vision & Aspirations</h3>
-            <p>Ta conception de l’IA, ce que tu veux construire, enjeux, vision long terme…</p>
-        </section>
-        <section id="objectives">
-            <h3>Objectifs</h3>
-            <ul>
-                <li>Court terme : …</li>
-                <li>Moyen terme : …</li>
-                <li>Long terme : …</li>
-            </ul>
-            <!-- Ajoute une timeline ou carte mentale ici -->
-        </section>
-        <section id="acomplishments">
-            <h3>Accomplissements</h3>
-            <ul>
-                <li>Projets marquants, concours, certifications, lectures, publications, activités créatives…</li>
-            </ul>
-        </section>
-        <section id="skills">
-            <h3>Compétences</h3>
-            <ul>
-                <li>Langages : Python, Java, SQL…</li>
-                <li>Outils ML : scikit-learn, PyTorch…</li>
-                <li>Data : pandas, NumPy, matplotlib…</li>
-                <li>UI/Dev : Tkinter, HTML/CSS…</li>
-                <li>Versioning/MLOps : Git, Docker</li>
-            </ul>
-        </section>
-        <section id="projects">
-            <h3>Projets</h3>
-            <div class="project">
-                <h4>Titre du projet</h4>
-                <p>Contexte, méthodologie, résultats, lien GitHub…</p>
-            </div>
-            <!-- Ajoute d'autres projets ici -->
-        </section>
-        <section id="blog">
-            <h3>Blog / Réflexions</h3>
-            <p>Billets, résumés de lectures, retours d’expérience…</p>
-        </section>
-        <section id="lab">
-            <h3>Atelier personnel</h3>
-            <p>Projets créatifs, expérimentations, idées en cours…</p>
-        </section>
-        <section id="contact">
-            <h3>Contact</h3>
-            <p>Email : <a href="mailto:luzolo.adoho@gmail.com">Mail</a></p>
-            <p>LinkedIn : <a href="https://linkedin.com/in/votreprofil" target="_blank">Linkedin</a></p>
-            <!-- Formulaire de contact si besoin -->
-        </section>
-
-        <section id="manifesto">
-            <h3>Manifeste personnel</h3>
-            <p>Philosophie, éthique, citation…</p>
-        </section>
-
     </main>
+
     <footer>
         <p>&copy; 2025 Nathan ADOHO</p>
     </footer>
