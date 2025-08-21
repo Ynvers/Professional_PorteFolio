@@ -80,4 +80,8 @@ footer{
   padding: 1rem;
   background-color: var(--header-color-background);
   color: var(--header-color-text);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
